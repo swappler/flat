@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Mobile Application Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.1.min.css" />
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.1.min.js"></script>
+</head>
+
+	<body>
+		<div data-role="page">
+		  <div data-role="header" data-position="fixed" >
+			    <a href="index.html" data-role="button" rel="external" data-icon="home">Home</a>
+				<h1>Produkte</h1>
+				<a href="login.html" data-role="button" rel="external" data-icon="lock">Login</a>
+		  </div>
+
+		  <div data-role="content">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search products..." data-inset="true">
+				<li><a href="#">Mobilfunk</a></li>
+				<li><a href="#">Festnetz</a></li>
+				<li><a href="#">Software</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Weiteres</a></li>
+			</ul>
+		  </div>
+
+		  <div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+				  <ul>
+					<li><a href="product.html" rel="external" data-icon="grid">Produkte</a></li>
+					<li><a href="account.html" rel="external" data-icon="edit">Kundendaten</a></li>
+					<li><a href="invoice.html" rel="external" data-icon="shop">Rechnung</a></li>
+					<li><a href="agenda.html" rel="external" data-icon="clock">Agenda</a></li>
+					<li><a href="help.html" rel="external" data-icon="comment">Hilfe</a></li>
+				  </ul>
+				</div>
+		  </div>
+		</div>
+	</body>
+</html>

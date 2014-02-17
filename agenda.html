@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Mobile Application Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.1.min.css" />
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.1.min.js"></script>
+</head>
+
+	<body>
+		<div data-role="page">
+		  <div data-role="header" data-position="fixed" >
+			    <a href="index.html" data-role="button" rel="external" data-icon="home">Home</a>
+				<h1>Agenda</h1>
+				<a href="login.html" data-role="button" rel="external" data-icon="lock">Login</a>
+		  </div>
+
+		  <div data-role="content">
+			<ul data-role="listview" data-inset="true">
+				<li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+				<li><a href="index.html">
+				<h2>Stephen Weber</h2>
+				<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+				<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+					<p class="ui-li-aside"><strong>6:24</strong>PM</p>
+				</a></li>
+				<li><a href="index.html">
+				<h2>jQuery Team</h2>
+				<p><strong>Boston Conference Planning</strong></p>
+				<p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+					<p class="ui-li-aside"><strong>9:18</strong>AM</p>
+				</a></li>
+				<li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+				<li><a href="index.html">
+				<h2>Avery Walker</h2>
+				<p><strong>Dinner Tonight</strong></p>
+				<p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait!</p>
+					<p class="ui-li-aside"><strong>4:48</strong>PM</p>
+				</a></li>
+			</ul>
+		  </div>
+
+		  <div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+				  <ul>
+					<li><a href="product.html" rel="external" data-icon="grid">Produkte</a></li>
+					<li><a href="account.html" rel="external" data-icon="edit">Kundendaten</a></li>
+					<li><a href="invoice.html" rel="external" data-icon="shop">Rechnung</a></li>
+					<li><a href="agenda.html" rel="external" data-icon="clock">Agenda</a></li>
+					<li><a href="help.html" rel="external" data-icon="comment">Hilfe</a></li>
+				  </ul>
+				</div>
+		  </div>
+		</div>
+	</body>
+</html>
